@@ -58,7 +58,7 @@ def send_message(service, user_id, message):
     print ('An error occurred: %s' % error)
 
 def main():
-    #Please write
+    #Please fill the information if you want to use this code
     message = create_message("write your email account","write the address you want to send email to ","write the title of this email","write the document")
     send_message(service,"me",message)
 if __name__=='__main__':
